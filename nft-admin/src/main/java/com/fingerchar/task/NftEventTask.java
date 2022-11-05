@@ -41,7 +41,7 @@ public class NftEventTask {
 	@Autowired
 	IBaseService baseService;
 	
-	@Scheduled(cron = "*/6 * * * * ?")
+	@Scheduled(cron = "*/1 * * * * ?")
     private void startProcessEvent() {
 		if(isProcessing.booleanValue()) {
 			logger.info("task is in processing status");

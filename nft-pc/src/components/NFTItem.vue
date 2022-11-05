@@ -58,7 +58,7 @@
 
           <div class="d-right" v-if="nft.itemList && nft.itemList.length">
             <span class="bid" @click="goDetail" v-if="highestBid">
-              {{ highestBid.singlePrice }}{{ highestBid.payToken.symbol }}
+              {{ highestBid.singlePrice }}{{ highestBid.payToken?.symbol }}
             </span>
             <span class="bid" @click="goDetail" v-else-if="isOwner">
               {{ $t("nftItem.pab") }}

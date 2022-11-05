@@ -1,0 +1,23 @@
+{
+  "NFT721": {
+    "address": "0x226cC6a0fc5E7b4F65A2f578207bcb2B5bC51b3a"
+  },
+  "transferProxy": {
+    "address": "0x6eFad2aB70B8c186E2282b12ff73ED91b4c82BaE"
+  },
+  "transferProxyForDeprecated": {
+    "address": "0x0cE0451BAB24b23d0a536eaAF448EE1A752E4BF1"
+  },
+  "erc20TransferProxy": {
+    "address": "0xe975EE3e946251Ee10f777D7d2fBC3ce3702427F"
+  },
+  "exchangeState": {
+    "address": "0x315AD185623620ACC719e8fb4fB4b0709d30D54C"
+  },
+  "exchangeOrderHolder": {
+    "address": "0xdd09e594A6044AB164396f81B326fb912A1c1665"
+  },
+  "exchange": {
+    "address": "0x3d678A3e9CBb4dE5eEe4EB168A26958B9404f60a"
+  }
+}
